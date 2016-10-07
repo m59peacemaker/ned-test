@@ -1,0 +1,30 @@
+{
+  "name": "ned-test",
+  "version": "0.0.0",
+  "description": "cli to run tests for ned",
+  "keywords": [],
+  "main": "index.js",
+  "bin": {
+    "ned-test": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/ned-test"
+  },
+  "author": {
+    "name": "Johnny Hauser",
+    "email": "johnnyhauser@gmail.com"
+  },
+  "license": "VOL",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "chokidar": "^1.6.0",
+    "cli-glob-assist": "^1.0.0",
+    "commander": "^2.9.0",
+    "cp-pipe": "^1.0.1",
+    "debounce": "^1.0.0",
+    "exclusive-process": "^1.1.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
+}
